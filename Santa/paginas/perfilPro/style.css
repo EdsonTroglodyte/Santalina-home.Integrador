@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    background-color: #FFF5E4;  
+}
+
+.caixa1{
+    height: 200px;
+    width: 620px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgb(245, 245, 245);
+    /* align-items: center; */
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.caixa{
+    margin-top: 10px;
+}
+.caixas{
+    background-color: #EED9B5;
+    height: 250px;
+    width: 650px;
+    border-radius: 40px;
+    margin: 40px;
+    padding: 5px;
+}
+
+.botao1{
+    margin-left: 5rem;
+    background-color: white;
+}
+
+.box{
+    /* background-color: gray; */
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column 
+    
+}
+.teste{
+   display: flex;
+   gap: 0.4rem;
+   padding: 1.2rem;
+   width: 100-px;
+}
+.testando {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+} 
+
+.img{
+    background-color: white;
+    height: 200px;
+    width: 300px ;
+    margin-left: 3rem;
+    border-radius: 10px;
+    padding: 1.5rem;
+    
+}
+
+.curriculo{
+    height: 680px;
+    width: 570px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    color: gray;    
+    margin-top: 0;
+}
+.h1C{
+    display: flex;
+    margin: 250px;
+  justify-content: center;
+    text-align: center;
+}
+
+.display{
+    display: flex;
+}
+

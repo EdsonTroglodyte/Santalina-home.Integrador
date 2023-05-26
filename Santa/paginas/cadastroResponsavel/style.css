@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFF5E4;
+}
+.form{
+    padding: 3rem;
+    margin: 100px;
+    width: 600px;
+    height: auto;
+    border-radius: 1.5rem;
+    background-color: #C0DBD5;
+}
+
+input{
+    justify-content: center;
+}
+
+.informacoeas{
+    align-items: end;
+}
+input, label{
+    margin-top: 40px;
+}
+.E-mail, .Senha, .cep, .number, .horas, .img{
+    border-radius: 5px;
+    height: 40px;
+    width: 500px;
+}
+
+.btn-cadastro, .cadastro{
+    padding-top: 1.5rem;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 3rem;
+    height: 70px;
+    width: 500px;
+    background-color: #2a5cb9;
+}
+
+
+

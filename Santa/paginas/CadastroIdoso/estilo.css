@@ -1,0 +1,132 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: 'Cabin', sans-serif;
+}
+
+body{
+    background-color: #ffeac4;
+}
+main{
+     align-items: baseline;
+     display: flex;
+     margin-left: 3vh;
+     gap: 5vh;
+     margin-bottom: 2.5vh;
+}
+
+.atividade{
+     height: 400px;
+     align-items: baseline;
+}
+.form{
+     display: flex;
+     flex-direction: column;
+     gap: 5vh;
+     margin-top: 7%;
+}
+
+.patologias{
+     padding: 90px;
+     background-color: rgb(255, 255, 255);
+     align-items: baseline;
+}
+.inputs{
+     display: flex;
+     flex-direction: column;
+     gap: 2vh;
+     width: 90vw;
+}
+.inputs input{
+     background-color: #ffffff;
+     height: 7vh;
+     border: none;
+     border-radius: 1rem;
+     padding: 0 2.5%;
+}
+
+.alergias, input{
+     font-weight: bold;
+}
+
+
+
+.radios{
+     display: flex;
+     flex-direction: column;
+     gap: 1.5vh;
+     background-color: #5c3400;
+     width: 90vw;
+     border-radius: 10px;
+     padding: 5%;
+}
+
+.cadastro{
+     width: 400px;
+     color: #ffffff;
+     margin-top: 9rem;
+     height: 70px;
+     background-color: #b97b2a;
+     box-shadow: #5c3400;
+}
+
+
+
+.forms-2{
+     display: flex;
+     display: inline-block;
+}
+
+.btns{
+     display: flex;
+     flex-direction: column;
+     gap: 2.5vh;
+     width: 100%;
+}
+.btns button{
+     border: none;
+     border-radius: 5px;
+     height: 7.5vh;
+}
+
+@media (min-width: 800px) {
+     .inputs{
+          width: 80vw;
+     }
+     .radios{
+          width: 80vw;
+     }
+
+     .a{
+          width: 80vw;
+     }
+}
+@media (min-width: 1000px) {
+     .inputs{
+          width: 70vw;
+     }
+
+     .moldura{
+          width: 70vw;
+     }
+     .a{
+          width: 70vw;
+     }  
+}
+@media (min-width: 1200px){
+
+     .inputs{
+          width: 30vw;
+          gap: 1vh;
+     }
+
+     .a{
+          width: 30vw;
+          height: 83vh;
+          gap: 1vh;
+     }
+     .btns{
+          gap: 1vh;
+     }
+}

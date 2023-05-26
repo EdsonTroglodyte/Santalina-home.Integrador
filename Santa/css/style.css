@@ -1,0 +1,108 @@
+
+
+  *{
+    font-family: 'Cabin', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+
+  .cabecalho{
+    text-align: center;
+    width: 100vw;
+    background-color: #EED9B5;
+}
+
+.navegacao{
+    background-color: #EED9B5;
+}
+.icon-1{
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+}
+.icon-2{
+    color: black;
+}
+
+.texto-informativo{
+  text-align: justify;
+  display: flex;
+    align-items: center; /*eixo x*/
+    justify-content: center; /* eixo y*/
+}
+main{
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img-1{
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img {
+  object-fit: cover;
+}
+
+p{
+    padding: 1px;
+}
+
+.fotos{
+    margin-bottom: 20rem;
+}
+
+.modal {
+  text-align: center;
+  background-color: #EED9B5;
+  left: 0;
+  top: 0;
+  width: 60px;
+  height: 60px;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.botao-modal:hover{
+  background-color: #ffffff;
+  border: 2px solid burlywood;
+  color: #ffd18c;
+}
+.botao-modal{
+  border-radius: 10px;
+  border: 2px solid burlywood;
+  width: 120px;
+  height: 60px;
+  color: rgb(90, 57, 14);
+  background-color: #ffd18c;
+}
+
+.modal-content {
+  gap: 3rem;
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #e60000;
+  width: 40px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
